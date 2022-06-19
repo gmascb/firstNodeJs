@@ -8,3 +8,9 @@ app.get('/', (req, res) => {
 })
 
 app.listen(3001);
+
+// To run 
+// make dev 
+
+
+// The command 'npm run dev' will run the command in `package.json L:9`

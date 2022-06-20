@@ -16,6 +16,7 @@ console.log('Staring filesystem.js - '
  + showTime());
 
 // will listen for each change that occurs in the file.
+// it will never stop, until you stop it manually.
 fs.watch(fileName, () => {
   console.log(`File changed! ${showTime()}`);
   readFile()

@@ -5,7 +5,7 @@ dev:
 	npm run dev
 
 fsA: 
-	node filesystemAsynchronous.js 
+	node learning/filesystemAsynchronous.js 
 
 fsS: 
-	node filesystemSynchronous.js 
+	node learning/filesystemSynchronous.js 

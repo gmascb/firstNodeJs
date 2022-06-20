@@ -20,8 +20,9 @@ exports.router = () => {
   return router;
 }
 
-exports.getPosts = (req, res) => {
-  res.send('Hello getPosts');
+exports.getPosts = (req, res, next) => {
+  console.log('postRoutes.js getPosts')
+  postController.getPosts(req, res);
 }
 
 // ==================================================================

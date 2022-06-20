@@ -4,5 +4,8 @@ http:
 dev:
 	npm run dev
 
-fs: 
-	node filesystem.js 
+fsA: 
+	node filesystemAsynchronous.js 
+
+fsS: 
+	node filesystemSynchronous.js 

@@ -1,5 +1,6 @@
 // How to run.
-// $: node filesystem.js
+// $: node filesystemAsynchronous.js
+// || make fsA
 
 // Edit the file with fileName name and see how it works.
 
@@ -14,6 +15,7 @@ console.log('Staring filesystem.js - '
  + 'showTime() will return undefined because the import wasnt finished yet -> '
  + showTime());
 
+// will listen for each change that occurs in the file.
 fs.watch(fileName, () => {
   console.log(`File changed! ${showTime()}`);
   readFile()
